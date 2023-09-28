@@ -1,0 +1,63 @@
+<div class="container">
+  <div class="screen">
+      <div class="screen__content">
+          <form class="login">
+              <div class="login__field">
+                  <i class="login__icon fas fa-user"></i>
+                  <input type="text" class="login__input" placeholder="Nombre del Usuario" id="nombre" name="nombre">
+              </div>
+              <div class="login__field">
+                  <i class="login__icon fas fa-envelope"></i>
+                  <input type="email" class="login__input" placeholder="Correo Electrónico" id="correo" name="correo">
+              </div>
+              <div class="login__field">
+                  <i class="login__icon fas fa-calendar-alt"></i>
+                  <input type="datetime-local" class="login__input" id="fechaNac" name="fechaNac">
+              </div>
+              <div class="login__field">
+                  <i class="login__icon fas fa-map-marker-alt"></i>
+                  <input type="text" class="login__input" placeholder="Dirección" id="direccion" name="direccion">
+              </div>
+              <div class="login__field">
+                  <i class="login__icon fas fa-phone-alt"></i>
+                  <input type="text" class="login__input" placeholder="Teléfono" id="telefono" name="telefono">
+              </div>
+              <!-- Campo de contraseña -->
+              <div class="login__field">
+                  <i class="login__icon fas fa-lock"></i>
+                  <input type="password" class="login__input" placeholder="Contraseña" id="password" name="password">
+              </div>
+              <!-- Confirmación de contraseña -->
+              <div class="login__field">
+                  <i class="login__icon fas fa-lock"></i>
+                  <input type="password" class="login__input" placeholder="Confirme su contraseña" id="confirmPassword" name="confirmPassword">
+              </div>
+              <!-- Campo desplegable para tipo de usuario -->
+              <div class="login__field">
+                  <i class="login__icon fas fa-user-tag"></i>
+                  <select class="login__input" id="userType" name="userType">
+                      <option value="admin">Administrador</option>
+                      <option value="librarian">Bibliotecario</option>
+                      <option value="normal">Usuario Normal</option>
+                  </select>
+              </div>
+              
+              <button class="button login__submit">
+                  <a href="http://localhost:4200/usuarios" class="btn btn-Primary">Registrarse</a>
+                  <i class="button__icon fas fa-chevron-right"></i>
+              </button>
+          </form>
+          <div class="social-login">
+              <h3></h3>
+              <div class="social-icons">
+              </div>
+          </div>
+      </div>
+      <div class="screen__background">
+          <span class="screen_backgroundshape screenbackground_shape4"></span>
+          <span class="screen_backgroundshape screenbackground_shape3"></span>
+          <span class="screen_backgroundshape screenbackground_shape2"></span>
+          <span class="screen_backgroundshape screenbackground_shape1"></span>
+      </div>
+  </div>
+</div>
